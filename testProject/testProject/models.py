@@ -10,7 +10,10 @@ class student_courseenrollment(models.Model):
 
     class Meta:
         db_table = 'student_courseenrollment'
-    """
-    def __unicode__(self):
-        return self.user_id
-    """
+
+
+class courseware_studentmodule(models.Model):
+    state = models.TextField(null=True)
+
+    class Meta:
+        db_table = 'courseware_studentmodule'

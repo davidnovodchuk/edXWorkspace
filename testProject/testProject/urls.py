@@ -7,7 +7,8 @@ from testProject import views
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', views.index, name='index')
+    url(r'^$', views.index, name='index'),
+    url(r'^state/', views.state)
     #url(r'^$', 'testProject.views.home', name='home'),
     # url(r'^testProject/', include('testProject.foo.urls')),
 

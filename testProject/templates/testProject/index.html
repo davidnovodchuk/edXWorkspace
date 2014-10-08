@@ -1,11 +1,9 @@
 <!-- {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %} -->
 <body>
-    <div class="section" style="float: right;" align="">
       <h4 class="gradient" align="left">List</h4>
       <ul>
         {% for category in student_courseenrollment %}
           <li><a href="" id="nav_font">{{ category.course_id }}</a></li>
         {% endfor %}
       </ul>
-    </div>
 </body>

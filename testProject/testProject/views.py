@@ -1,5 +1,5 @@
 from django.shortcuts import render_to_response
-from models import student_courseenrollment
+from models import *
 from django.http import HttpResponse
 
 
@@ -11,3 +11,10 @@ def index(request):
 
     #return HttpResponse("Hello World!")
     return render_to_response("testProject/index.html", extra_context)
+
+
+def state(request):
+
+    state = courseware_studentmodule.objects.all()[0]
+
+    return HttpResponse(state.state)
