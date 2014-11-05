@@ -1,0 +1,20 @@
+Turn on dirtual environment:
+source /home/david/edX/dev/bin/activate
+
+Turn off:
+deactivate
+
+start application:
+- go to the project directory
+python manage.py runserver
+
+start shell:
+python manage.py shell
+	- working with database inside the shell:
+	from testProject.models import student_courseenrollment
+	print student_courseenrollment.objects.all()
+
+more information:
+http://www.tangowithdjango.com/book/chapters/models.html
+
+

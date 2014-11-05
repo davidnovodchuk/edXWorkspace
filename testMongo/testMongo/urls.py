@@ -7,6 +7,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'testMongo.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^$', views.index, name='index')
+    url(r'^$', views.index, name='index'),
+    url(r'^upload/', views.upload_file, name='upload_file')
     #url(r'^admin/', include(admin.site.urls)),
 )

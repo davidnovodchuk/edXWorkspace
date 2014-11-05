@@ -1,0 +1,23 @@
+Start mongoDB:
+sudo service mongod start
+
+Verify that MongoDB has started successfully:
+cat /var/log/mongodb/mongod.log
+look for:
+[initandlisten] waiting for connections on port <port>
+
+Stop MongoDB:
+sudo service mongod stop
+
+
+
+
+
+
+
+
+from django.db import models
+  
+class School(models.Model):
+    name = models.TextField()
+    address = models.TextField()

@@ -1,0 +1,15 @@
+To run devstack, go to devstack directory:
+
+vagrant up
+vagrant ssh
+sudo su edxapp
+(for lms):
+paver devstack lms
+(for studio):
+paver devstack studio
+
+To exit devstack:
+
+first, exit from devstack to your the computer.
+Then:
+vagrant halt

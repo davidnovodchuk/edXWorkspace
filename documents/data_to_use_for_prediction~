@@ -1,0 +1,8 @@
+Data that can be used for predicting furure course performence:
+
+- auth_userprofile.level_of_education
+- courseware_studentmodule.state (a JSON document that has the following data): 
+	- "correctness" of answers that were submitted by the student.
+	- "attempts" of trying to answer a question.
+- courseware_studentmodule.grade (the stade a student received for each problem)
+- courseware_studentmodule.max_grade

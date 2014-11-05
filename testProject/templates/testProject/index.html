@@ -1,4 +1,7 @@
 <!-- {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %} -->
+
+{% load static %}
+
 <body>
       <h4 class="gradient" align="left">List</h4>
       <ul>
@@ -6,4 +9,5 @@
           <li><a href="" id="nav_font">{{ category.course_id }}</a></li>
         {% endfor %}
       </ul>
+    <img src="{% static "green_background.png" %}" alt="Green Background" />
 </body>

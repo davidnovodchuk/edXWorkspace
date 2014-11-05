@@ -1,3 +1,14 @@
+import os
+
+# path to project directory
+SETTINGS_DIR = os.path.dirname(__file__)
+
+PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
+PROJECT_PATH = os.path.abspath(PROJECT_PATH)
+
+# path to static directory
+STATIC_PATH = os.path.join(PROJECT_PATH,'static')
+
 # Django settings for testProject project.
 
 DEBUG = True
@@ -96,6 +107,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    STATIC_PATH,
 )
 
 # List of finder classes that know how to find static files in
@@ -131,11 +143,13 @@ ROOT_URLCONF = 'testProject.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'testProject.wsgi.application'
 
+TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
+
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-	'/home/david/edX/edXWorkspace/testProject/templates/',
+	TEMPLATE_PATH,
 )
 
 INSTALLED_APPS = (

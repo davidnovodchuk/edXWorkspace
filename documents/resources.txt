@@ -1,0 +1,11 @@
+NFS Client:
+http://www.cyberciti.biz/tips/ubuntu-linux-nfs-client-configuration-to-mount-nfs-share.html
+
+edx-analytics-data-api-client:
+https://github.com/edx/edx-analytics-data-api-client
+
+McGillX/edx-data-research:
+https://github.com/McGillX/edx-data-research
+
+Explanations about each data structure:
+http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/package.html

@@ -1,0 +1,195 @@
+SAMPLE JSON DOCUMENTS GENERATED FOR DIFFERENT TYPES OF QUESTIONS:
+
+POINTING ON A PICTURE:
+{
+    "correct_map": {
+        "i4x-edX-DemoX-problem-c554538a57664fac80783b99d9d6da7c_2_1": {
+            "hint": "",
+            "hintmode": null,
+            "correctness": "incorrect",
+            "npoints": null,
+            "msg": "",
+            "queuestate": null
+        }
+    },
+    "input_state": {
+        "i4x-edX-DemoX-problem-c554538a57664fac80783b99d9d6da7c_2_1": {}
+    },
+    "last_submission_time": "2014-10-10T18:40:11Z",
+    "attempts": 4,
+    "seed": 1,
+    "done": true,
+    "student_answers": {
+        "i4x-edX-DemoX-problem-c554538a57664fac80783b99d9d6da7c_2_1": "[240,194]"
+    }
+}
+
+DRAG AND DROP
+"Click and drag EVERY word in the scrollbar below, up to the numbered bucket which matches the number of letters in the word.":
+
+{
+    "correct_map": {
+        "i4x-edX-DemoX-problem-d2e35c1d294b4ba0b3b1048615605d2a_2_1": {
+            "hint": "",
+            "hintmode": null,
+            "correctness": "correct",
+            "npoints": 1,
+            "msg": "",
+            "queuestate": null
+        }
+    },
+    "input_state": {
+        "i4x-edX-DemoX-problem-d2e35c1d294b4ba0b3b1048615605d2a_2_1": {}
+    },
+    "last_submission_time": "2014-10-09T22:24:23Z",
+    "attempts": 5,
+    "seed": 1,
+    "done": true,
+    "student_answers": {
+        "i4x-edX-DemoX-problem-d2e35c1d294b4ba0b3b1048615605d2a_2_1": "[{\"1\":[63,154]},{\"2\":[302,175]},{\"3\":[550,141]},{\"4\":[418,159]},{\"5\":[549,169]},{\"6\":[183,173]},{\"7\":[420,136]},{\"8\":[187,146]},{\"9\":[300,145]},{\"10\":[552,135]}]"
+    }
+}
+
+MULTIPLE CHOICE QUESTIONS:
+Three types of questions:
+- A drop-down one answer (i4x-edX-DemoX-problem-a0effb954cca4759994f1ac9e9434bf4_2_1).
+- Radion buttons one answer (i4x-edX-DemoX-problem-a0effb954cca4759994f1ac9e9434bf4_3_1).
+- Checkboxes multiple answers (in this case 2) (i4x-edX-DemoX-problem-a0effb954cca4759994f1ac9e9434bf4_4_1).
+{
+    "correct_map": {
+        "i4x-edX-DemoX-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": {
+            "hint": "",
+            "hintmode": null,
+            "correctness": "correct",
+            "msg": "",
+            "npoints": null,
+            "queuestate": null
+        },
+        "i4x-edX-DemoX-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {
+            "hint": "",
+            "hintmode": null,
+            "correctness": "incorrect",
+            "msg": "",
+            "npoints": null,
+            "queuestate": null
+        },
+        "i4x-edX-DemoX-problem-a0effb954cca4759994f1ac9e9434bf4_3_1": {
+            "hint": "",
+            "hintmode": null,
+            "correctness": "correct",
+            "msg": "",
+            "npoints": null,
+            "queuestate": null
+        }
+    },
+    "input_state": {
+        "i4x-edX-DemoX-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": {},
+        "i4x-edX-DemoX-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {},
+        "i4x-edX-DemoX-problem-a0effb954cca4759994f1ac9e9434bf4_3_1": {}
+    },
+    "last_submission_time": "2014-10-09T22:25:14Z",
+    "attempts": 4,
+    "seed": 1,
+    "done": true,
+    "student_answers": {
+        "i4x-edX-DemoX-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": [
+            "choice_0",
+            "choice_2"
+        ],
+        "i4x-edX-DemoX-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": "yellow",
+        "i4x-edX-DemoX-problem-a0effb954cca4759994f1ac9e9434bf4_3_1": "choice_2"
+    }
+}
+
+MATHEMATICAL EXPRESSIONS:
+{
+    "correct_map": {
+        "i4x-edX-DemoX-problem-Sample_Algebraic_Problem_2_1": {
+            "hint": "",
+            "hintmode": null,
+            "correctness": "correct",
+            "npoints": null,
+            "msg": "",
+            "queuestate": null
+        }
+    },
+    "input_state": {
+        "i4x-edX-DemoX-problem-Sample_Algebraic_Problem_2_1": {}
+    },
+    "last_submission_time": "2014-10-09T22:26:08Z",
+    "attempts": 1,
+    "seed": 1,
+    "done": true,
+    "student_answers": {
+        "i4x-edX-DemoX-problem-Sample_Algebraic_Problem_2_1": "A*x^2 + sqrt(y)",
+        "i4x-edX-DemoX-problem-Sample_Algebraic_Problem_2_1_dynamath": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\r\n  <mstyle displaystyle=\"true\">\r\n    <mo></mo>\r\n  </mstyle>\r\n</math>"
+    }
+}
+
+NUMERICAL INPUT:
+{
+    "correct_map": {
+        "i4x-edX-DemoX-problem-75f9562c77bc4858b61f907bb810d974_2_1": {
+            "hint": "",
+            "hintmode": null,
+            "correctness": "correct",
+            "npoints": null,
+            "msg": "",
+            "queuestate": null
+        },
+        "i4x-edX-DemoX-problem-75f9562c77bc4858b61f907bb810d974_3_1": {
+            "hint": "",
+            "hintmode": null,
+            "correctness": "correct",
+            "npoints": null,
+            "msg": "",
+            "queuestate": null
+        },
+        "i4x-edX-DemoX-problem-75f9562c77bc4858b61f907bb810d974_4_1": {
+            "hint": "",
+            "hintmode": null,
+            "correctness": "incorrect",
+            "npoints": null,
+            "msg": "",
+            "queuestate": null
+        }
+    },
+    "last_submission_time": "2014-10-09T22:29:05Z",
+    "input_state": {
+        "i4x-edX-DemoX-problem-75f9562c77bc4858b61f907bb810d974_2_1": {},
+        "i4x-edX-DemoX-problem-75f9562c77bc4858b61f907bb810d974_3_1": {},
+        "i4x-edX-DemoX-problem-75f9562c77bc4858b61f907bb810d974_4_1": {}
+    },
+    "attempts": 2,
+    "seed": 1,
+    "done": true,
+    "student_answers": {
+        "i4x-edX-DemoX-problem-75f9562c77bc4858b61f907bb810d974_2_1": "3.14",
+        "i4x-edX-DemoX-problem-75f9562c77bc4858b61f907bb810d974_3_1": "4518",
+        "i4x-edX-DemoX-problem-75f9562c77bc4858b61f907bb810d974_4_1": "3"
+    }
+}
+
+TEXT INPUT:
+{
+    "correct_map": {
+        "i4x-edX-DemoX-problem-0d759dee4f9d459c8956136dbde55f02_2_1": {
+            "hint": "",
+            "hintmode": null,
+            "correctness": "correct",
+            "msg": "",
+            "npoints": null,
+            "queuestate": null
+        }
+    },
+    "input_state": {
+        "i4x-edX-DemoX-problem-0d759dee4f9d459c8956136dbde55f02_2_1": {}
+    },
+    "last_submission_time": "2014-10-09T22:29:47Z",
+    "attempts": 2,
+    "seed": 1,
+    "done": true,
+    "student_answers": {
+        "i4x-edX-DemoX-problem-0d759dee4f9d459c8956136dbde55f02_2_1": "France"
+    }
+}
