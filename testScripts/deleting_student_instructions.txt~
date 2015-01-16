@@ -1,0 +1,19 @@
+Parent table:
+- auth_user.id
+
+Tables that have user_id as foreign key:
+- auth_registration.user_id
+- auth_userprofile.user_id
+- courseware_studentmodule.student_id
+- django_comment_client_role_users.user_id
+- student_courseenrollment.user_id
+- user_api_userpreference.user_id
+
+Queries:
+DELETE FROM auth_registration WHERE (user_id = 5);
+DELETE FROM auth_userprofile WHERE (user_id = 5);
+DELETE FROM courseware_studentmodule WHERE (student_id = 5);
+DELETE FROM django_comment_client_role_users WHERE (user_id = 5);
+DELETE FROM student_courseenrollment WHERE (user_id = 5);
+DELETE FROM user_api_userpreference WHERE (user_id = 5);
+DELETE FROM auth_user WHERE (id = 5);

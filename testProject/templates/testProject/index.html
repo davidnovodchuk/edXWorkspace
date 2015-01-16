@@ -3,11 +3,16 @@
 {% load static %}
 
 <body>
-      <h4 class="gradient" align="left">List</h4>
-      <ul>
-        {% for category in student_courseenrollment %}
-          <li><a href="" id="nav_font">{{ category.course_id }}</a></li>
+    <table border="1" cellpadding="10">
+        <tr align = "center">
+            <td>student id</td>
+            <td>email address</td>
+        </tr>
+        {% for user in auth_user %}
+        <tr>
+            <td align = "center">{{ user.id }}</td>
+            <td>{{ user.email }}</td>
+        </tr>
         {% endfor %}
-      </ul>
-    <img src="{% static "green_background.png" %}" alt="Green Background" />
+    </table>
 </body>

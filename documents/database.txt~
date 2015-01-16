@@ -38,4 +38,4 @@ Port: 27017
 
 
 Where student's submittioned work is stored:
-courseware_studentmodule table -> state.jason
+courseware_studentmodule table -> state.json

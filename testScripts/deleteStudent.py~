@@ -1,0 +1,31 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import MySQLdb as mdb
+import sys
+from six import iteritems
+
+# connecting to the database:
+con = mdb.connect( user = "root", db = "edxapp", passwd = "dnedx14");
+
+# Executing MySQL queries:
+with con:
+
+	email = 'dnovodchuk@myseneca.ca'
+
+        cur = con.cursor()
+
+        cur.execute(""" SELECT id 
+                        FROM auth_user
+			WHERE email = %s """, [email])
+
+	# getting student_id from the query result:
+        student_id = int(cur.fetchall()[0][0])
+	
+	# deleting rows from all tables where there are foreign keys of student_id
+	cur.execute(""" DELETE FROM auth_user 
+			WHERE id = %d """, [student_id])	
+
+# Closing the db connection:        
+con.close()
+

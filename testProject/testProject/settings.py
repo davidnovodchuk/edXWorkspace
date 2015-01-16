@@ -20,14 +20,22 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+# retrieving MySQL database information from a file:
+f = open('../MySQL_Info.txt')
+
+db_name = f.readline().strip()
+db_user = f.readline().strip()
+db_password = f.readline().strip()
+db_host = f.readline().strip()
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'edxapp',                      # Or path to database file if using sqlite3.
+        'NAME': db_name,                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
-        'USER': 'root',
-        'PASSWORD': 'dnedx14',
-        'HOST': 'localhost',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+        'USER': db_user,
+        'PASSWORD': db_password,
+        'HOST': db_host,                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '',                      # Set to empty string for default.
     }
 }

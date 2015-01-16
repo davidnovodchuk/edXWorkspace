@@ -30,6 +30,12 @@ Default Schema: edxapp
 Note: You may also need to specify the SSH Key File, which should be located at "~/.vagrant.d/insecure_private_key"
 
 
+Exporting MySQL edxapp database from Dvstack and importing to local MySQL:
+In Devstack:
+ mysqldump -u "root" edxapp > edxapp.sql
+In local:
+ mysql -u "root" -p edxapp < edxapp.sql
+
 mongoDB:
 
 Address: 192.168.33.10

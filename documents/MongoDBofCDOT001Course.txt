@@ -1,0 +1,227 @@
+/* 0 */
+{
+    "_id" : {
+        "tag" : "i4x",
+        "org" : "CDOT",
+        "course" : "CDOT001",
+        "category" : "about",
+        "name" : "overview",
+        "revision" : null
+    },
+    "definition" : {
+        "data" : {
+            "data" : "<section class=\"about\">\n  <h2>About This Course</h2>\n  <p>Include your long course description here. The long course description should contain 150-400 words.</p>\n\n  <p>This is paragraph 2 of the long course description. Add more paragraphs as needed. Make sure to enclose them in paragraph tags.</p>\n</section>\n\n<section class=\"prerequisites\">\n  <h2>Prerequisites</h2>\n  <p>Add information about course prerequisites here.</p>\n</section>\n\n<section class=\"course-staff\">\n  <h2>Course Staff</h2>\n  <article class=\"teacher\">\n    <div class=\"teacher-image\">\n      <img src=\"/static/images/pl-faculty.png\" align=\"left\" style=\"margin:0 20 px 0\" alt=\"Course Staff Image #1\">\n    </div>\n\n    <h3>Staff Member #1</h3>\n    <p>Biography of instructor/staff member #1</p>\n  </article>\n\n  <article class=\"teacher\">\n    <div class=\"teacher-image\">\n      <img src=\"/static/images/pl-faculty.png\" align=\"left\" style=\"margin:0 20 px 0\" alt=\"Course Staff Image #2\">\n    </div>\n\n    <h3>Staff Member #2</h3>\n    <p>Biography of instructor/staff member #2</p>\n  </article>\n</section>\n\n<section class=\"faq\">\n  <section class=\"responses\">\n    <h2>Frequently Asked Questions</h2>\n    <article class=\"response\">\n      <h3>Do I need to buy a textbook?</h3>\n      <p>No, a free online version of Chemistry: Principles, Patterns, and Applications, First Edition by Bruce Averill and Patricia Eldredge will be available, though you can purchase a printed version (published by FlatWorld Knowledge) if you’d like.</p>\n    </article>\n\n    <article class=\"response\">\n      <h3>Question #2</h3>\n      <p>Your answer would be displayed here.</p>\n    </article>\n  </section>\n</section>\n"
+        }
+    },
+    "edit_info" : {
+        "edited_by" : NumberLong(8),
+        "subtree_edited_on" : ISODate("2014-10-23T19:47:59.059Z"),
+        "edited_on" : ISODate("2014-10-23T19:47:59.059Z"),
+        "subtree_edited_by" : NumberLong(8)
+    },
+    "metadata" : {
+        "display_name" : "overview"
+    }
+}
+
+/* 1 */
+{
+    "_id" : {
+        "tag" : "i4x",
+        "org" : "CDOT",
+        "course" : "CDOT001",
+        "category" : "course",
+        "name" : "2014_10",
+        "revision" : null
+    },
+    "definition" : {
+        "children" : [ 
+            "i4x://CDOT/CDOT001/chapter/eb55504ae7694a94acfa6232ed1e8b3e"
+        ],
+        "data" : {
+            "wiki_slug" : "CDOT.CDOT001.2014_10"
+        }
+    },
+    "edit_info" : {
+        "edited_by" : NumberLong(8),
+        "subtree_edited_on" : ISODate("2014-10-23T19:49:58.312Z"),
+        "edited_on" : ISODate("2014-10-23T19:48:02.807Z"),
+        "subtree_edited_by" : NumberLong(8)
+    },
+    "metadata" : {
+        "tabs" : [ 
+            {
+                "type" : "courseware",
+                "name" : "Courseware"
+            }, 
+            {
+                "type" : "course_info",
+                "name" : "Course Info"
+            }, 
+            {
+                "type" : "textbooks",
+                "name" : "Textbooks"
+            }, 
+            {
+                "type" : "discussion",
+                "name" : "Discussion"
+            }, 
+            {
+                "type" : "wiki",
+                "name" : "Wiki"
+            }, 
+            {
+                "type" : "progress",
+                "name" : "Progress"
+            }
+        ],
+        "start" : "2030-01-01T00:00:00Z",
+        "display_name" : "Test Course",
+        "discussion_topics" : {
+            "General" : {
+                "id" : "i4x-CDOT-CDOT001-course-2014_10"
+            }
+        }
+    }
+}
+
+/* 2 */
+{
+    "_id" : {
+        "tag" : "i4x",
+        "org" : "CDOT",
+        "course" : "CDOT001",
+        "category" : "problem",
+        "name" : "3ea2afa376d54d35a9edbd1d4ffd29aa",
+        "revision" : null
+    },
+    "definition" : {
+        "data" : {
+            "data" : "<problem>\n<p>Are you using edX?</p>\n<p>Select the answer that matches</p>\n<choiceresponse>\n  <checkboxgroup label=\"Select the answer that matches\" direction=\"vertical\">\n    <choice correct=\"true\">correct</choice>\n    <choice correct=\"false\">incorrect</choice>\n    <choice correct=\"true\">correct</choice>\n  </checkboxgroup>\n</choiceresponse>\n\n\n</problem>"
+        }
+    },
+    "edit_info" : {
+        "edited_by" : NumberLong(8),
+        "subtree_edited_by" : NumberLong(8),
+        "published_by" : NumberLong(8),
+        "edited_on" : ISODate("2014-11-21T20:51:38.572Z"),
+        "published_date" : ISODate("2014-11-21T20:51:38.572Z"),
+        "subtree_edited_on" : ISODate("2014-11-21T20:51:38.572Z")
+    },
+    "metadata" : {
+        "markdown" : "Are you using edX?\n>>Select the answer that matches<<\n\n[x] correct\n[ ] incorrect\n[x] correct\n",
+        "display_name" : "Checkboxes"
+    }
+}
+
+/* 3 */
+{
+    "_id" : {
+        "tag" : "i4x",
+        "org" : "CDOT",
+        "course" : "CDOT001",
+        "category" : "vertical",
+        "name" : "d65e4d5e5f2a4882b475616b36780565",
+        "revision" : null
+    },
+    "definition" : {
+        "children" : [ 
+            "i4x://CDOT/CDOT001/problem/3ea2afa376d54d35a9edbd1d4ffd29aa"
+        ],
+        "data" : {}
+    },
+    "edit_info" : {
+        "edited_by" : NumberLong(8),
+        "subtree_edited_by" : NumberLong(8),
+        "published_by" : NumberLong(8),
+        "edited_on" : ISODate("2014-11-21T20:51:38.575Z"),
+        "published_date" : ISODate("2014-11-21T20:51:38.575Z"),
+        "subtree_edited_on" : ISODate("2014-11-21T20:51:38.575Z")
+    },
+    "metadata" : {
+        "display_name" : "Unit 1"
+    }
+}
+
+/* 4 */
+{
+    "_id" : {
+        "tag" : "i4x",
+        "org" : "CDOT",
+        "course" : "CDOT001",
+        "category" : "sequential",
+        "name" : "005c1d02ca444a38837264bc32fcf1ec",
+        "revision" : null
+    },
+    "definition" : {
+        "children" : [ 
+            "i4x://CDOT/CDOT001/vertical/d65e4d5e5f2a4882b475616b36780565", 
+            "i4x://CDOT/CDOT001/vertical/2d3dd6441d6b4ea4b9abd48fb4406c6b"
+        ],
+        "data" : {}
+    },
+    "edit_info" : {
+        "edited_by" : NumberLong(8),
+        "subtree_edited_on" : ISODate("2014-11-21T20:48:03.040Z"),
+        "edited_on" : ISODate("2014-11-21T20:48:03.040Z"),
+        "subtree_edited_by" : NumberLong(8)
+    },
+    "metadata" : {
+        "display_name" : "Test Subsection"
+    }
+}
+
+/* 5 */
+{
+    "_id" : {
+        "tag" : "i4x",
+        "org" : "CDOT",
+        "course" : "CDOT001",
+        "category" : "vertical",
+        "name" : "2d3dd6441d6b4ea4b9abd48fb4406c6b",
+        "revision" : null
+    },
+    "definition" : {
+        "children" : [],
+        "data" : {}
+    },
+    "edit_info" : {
+        "edited_by" : NumberLong(8),
+        "subtree_edited_by" : NumberLong(8),
+        "published_by" : NumberLong(8),
+        "edited_on" : ISODate("2014-11-21T20:51:38.577Z"),
+        "published_date" : ISODate("2014-11-21T20:51:38.577Z"),
+        "subtree_edited_on" : ISODate("2014-11-21T20:51:38.577Z")
+    },
+    "metadata" : {
+        "display_name" : "Unit 2"
+    }
+}
+
+/* 6 */
+{
+    "_id" : {
+        "tag" : "i4x",
+        "org" : "CDOT",
+        "course" : "CDOT001",
+        "category" : "chapter",
+        "name" : "eb55504ae7694a94acfa6232ed1e8b3e",
+        "revision" : null
+    },
+    "definition" : {
+        "children" : [ 
+            "i4x://CDOT/CDOT001/sequential/005c1d02ca444a38837264bc32fcf1ec"
+        ],
+        "data" : {}
+    },
+    "edit_info" : {
+        "edited_by" : NumberLong(8),
+        "subtree_edited_on" : ISODate("2014-11-21T20:52:36.160Z"),
+        "edited_on" : ISODate("2014-11-21T20:52:36.160Z"),
+        "subtree_edited_by" : NumberLong(8)
+    },
+    "metadata" : {
+        "start" : "2014-01-01T00:00:00Z",
+        "display_name" : "Test Section"
+    }
+}

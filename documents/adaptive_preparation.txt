@@ -1,0 +1,42 @@
+Course structure:
+
+course
+	chapter
+		sequential
+		sequential
+	chapter
+		sequential
+	chapter
+		sequential
+		sequential
+		sequential
+
+Creating MySQL table for storing references of course parts that the student does not need
+to do:
+CREATE TABLE adaptive_student_course (
+    	student_id int NOT NULL,
+	org TEXT NOT NULL,
+	course TEXT NOT NULL,
+	module_type varchar(32) NOT NULL,
+	module_id varchar(255) NOT NULL,
+	FOREIGN KEY (student_id) REFERENCES auth_user(id)
+);
+
+INSERT INTO adaptive_student
+VALUES (6,
+	'edX',
+	'DemoX',
+	'chapter',
+	'interactive_demonstrations'
+);
+
+AdaptiveStudentCourse Model:
+
+class AdaptiveStudentCourse(models.Model):
+
+    student_id = models.IntegerField(null=False)
+	org = models.TextField(null=False),
+	course = models.TextField(null=False)
+	module_type = models.TextField(null=False)
+	module_id = models.TextField(null=False)
+
