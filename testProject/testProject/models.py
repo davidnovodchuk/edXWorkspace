@@ -27,6 +27,7 @@ class courseware_studentmodule(models.Model):
     created = models.DateTimeField(null=False)
     modified = models.DateTimeField(null=False)
     max_grade = models.DecimalField(null=True)
+    course_id = models.TextField(null=False)
 
     class Meta:
         db_table = 'courseware_studentmodule'

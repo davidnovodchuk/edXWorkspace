@@ -7,8 +7,10 @@ from testProject import views
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', views.index, name='index'),
-    url(r'^state/', views.state)
+    url(r'^$', views.courses, name='index'),
+    #url(r'^state/', views.state),
+    url(r'^courses/all_courses/', views.courses),
+    url(r'^courses/view_course/(?P<course_id>.+)$', views.specifiedCourse)
     #url(r'^$', 'testProject.views.home', name='home'),
     # url(r'^testProject/', include('testProject.foo.urls')),
 
